@@ -1,0 +1,58 @@
+$coat:#af393d;
+$lipstick:#be094f;
+$hair:#331f3e;
+$face:#fee7e3;
+$skin_shadow:#d3a6aa;
+$belt_moonlight:#788b7d;
+
+$main_colour: $coat;
+$theme_colour: $hair; /* Akeginu */
+$font_backgroud_colour: $face;
+
+$body_colour: $theme_colour;
+$body_backgroud_colour: $font_backgroud_colour;
+$body_font_size: 15px;
+$sidebar_colour: $face;
+$sidebar_a_hover_colour: $skin_shadow;
+$sidebar_background_colour: $main_colour;
+$scrollbar_colour: $main_colour;
+$scrollbar_thumb_colour: $body_backgroud_colour;
+$scrollbar_track_colour: $main_colour;
+$header_text_shadow: 2px 4px 5px $skin_shadow;
+$header_border_colour: $lipstick;
+$header_a_colour: $lipstick;
+$page_table_border: 1px solid $theme_colour;
+
+/* content */
+$content_code_background: $font_backgroud_colour;
+
+$code_box_shadow_colour1: $coat;
+$code_box_shadow_colour2: #dcc9c21a;
+$code_box_shadow_colour3: #f1e4b91a;
+$code_webkit_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
+$code_moz_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
+$code_box_shadow: inset 0 1px 10px $code_box_shadow_colour1, 0 1px 0 $code_box_shadow_colour2, 0 -1px 0 $code_box_shadow_colour3;
+
+$content_em_strong_text_shadow: 1px 1px 2px $main_colour;
+$content_em_strong_colour: $theme_colour;
+$content_strong_text_shadow: 0 0 2px $main_colour;
+$content_strong_colour: $theme_colour;
+
+/* block */
+$block_backgroud_colour: #f2f2f2;
+$block_colour: $main_colour;
+
+$ref_background: $main_colour;
+$ref_colour: #f2f2f2;
+$ref_code_colour: $ref_colour;
+$ref_code_webkit_box_shadow: inset 0 1px 10px #e0dcdc4d, 0 1px 0 #ffffff1a, 0 -1px 0 #0000001a;
+$ref_table_border: 1px solid $font_backgroud_colour;
+
+$tip_background: #37c7f7;
+$tip_border_top_colour: #284750;
+$note_background: #819cf8;
+$note_border_top_colour: #070d1d;
+$info_background: #f8b985;
+$info_border_top_colour: #271200;
+$warn_background: #f78e8e;
+$warn_border_top_colour: #270000;
