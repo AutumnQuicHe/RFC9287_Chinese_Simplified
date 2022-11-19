@@ -8,7 +8,7 @@ rank: "h1"
 The version-independent definition of QUIC [QUIC-INVARIANTS] intentionally describes a very narrow set of fields that are visible to entities other than endpoints. Beyond those characteristics that are invariant, very little about the "wire image" [RFC8546] of QUIC is visible.
 
 在与版本无关的QUIC定义《[QUIC不变量]()》中描述了少量对于并非终端的实体可见的字段。
-除了那些不可变的特征外，QUIC的“线路图像”（`wire image`， 详见《[RFC8546]()》）几乎是不可见的。
+除了那些不可变的特征外，QUIC的“通信数据映像”（`wire image`， 详见《[RFC8546]()》）几乎是不可见的。
 
 The second-most significant bit of the first byte in every QUIC packet is defined as having a fixed value in QUIC version 1 [QUIC]. The purpose of having a fixed value is to allow endpoints to efficiently distinguish QUIC from other protocols; see [DEMUX] for a description of a system that might use this property. As this bit can identify a packet as QUIC, it is sometimes referred to as the "QUIC Bit".
 
