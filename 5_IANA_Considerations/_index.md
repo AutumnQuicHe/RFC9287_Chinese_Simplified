@@ -7,7 +7,8 @@ rank: "h1"
 
 This document registers the grease_quic_bit transport parameter in the "QUIC Transport Parameters" registry established in Section 22.3 of [QUIC]. The following fields are registered:
 
-本文档在《[QUIC]()》的[第22.3章]()定义的注册表《QUIC传输参数》中注册了传输参数`grease_quic_bit`。注册字段如下：
+本文档在《[QUIC]()》的[第22.3章]()定义的注册表《QUIC传输参数》中注册了传输参数`grease_quic_bit`。
+注册字段如下：
 
 Value:
 0x2ab2
