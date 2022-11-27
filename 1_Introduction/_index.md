@@ -6,7 +6,7 @@ rank: "h1"
 ---
 
 在与版本无关的QUIC定义《[QUIC不变量](../RFC8999_Chinese_Simplified)》中描述了少量对于并非终端的实体可见的字段。
-除了那些不可变的特征外，QUIC的“通信数据映像”（`wire image`， 详见《[RFC8546](https://www.rfc-editor.org/info/rfc8546)》）几乎是不可见的。
+除了那些不可变的特征外，QUIC的“通信线路图象”（`wire image`， 详见《[RFC8546](https://www.rfc-editor.org/info/rfc8546)》）几乎是不可见的。
 
 在QUIC版本1中（详见《[QUIC](../RFC9000_Chinese_Simplified)》），所有QUIC数据包的首个字节的第二最高有效位被指定为固定值。
 设定该固定值的目的是为了与允许终端高效地将QUIC从其他协议中区分出来；有关可以利用该属性的系统的描述，详见《[DEMUX](https://datatracker.ietf.org/doc/html/draft-ietf-avtcore-rfc7983bis-06)》。
