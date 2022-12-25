@@ -5,7 +5,7 @@ weight: 500
 rank: "h1"
 ---
 
-本文档在《[QUIC]()》的[第22.3章]()定义的注册表《QUIC传输参数》中注册了传输参数`grease_quic_bit`。
+本文档在《[QUIC](../RFC9000_Chinese_Simplified)》的[第22.3章](../RFC9000_Chinese_Simplified/#22.3_QUIC_Transport_Parameters_Registry)定义的注册表《QUIC传输参数》中注册了传输参数`grease_quic_bit`。
 注册字段如下：
 
 值：
